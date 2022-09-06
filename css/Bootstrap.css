@@ -66,7 +66,7 @@ body {
   line-height: 1.5;
   color: #212529;
   text-align: left;
-  background-color: #fff;
+  background-color: var(--purple);
 }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
@@ -1915,6 +1915,12 @@ pre code {
   color: #495057;
   background-color: #e9ecef;
   border-color: #dee2e6;
+}
+
+#imageMed {
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url('../assets/CARTAZ\ A3\ CMYK.jpg');
 }
 
 .table-dark {
@@ -10003,14 +10009,14 @@ h3 {
   }
 }
 body {
-  padding-top: 3.375rem;
-  color: #6c757d;
+  /* padding-top: 3.375rem; */
+  /* color: #6c757d; */
 }
 
 @media (min-width: 992px) {
   body {
-    padding-top: 0;
-    padding-left: 17rem;
+    /* padding-top: 0; */
+    /* padding-left: 17rem; */
   }
 }
 h1,
